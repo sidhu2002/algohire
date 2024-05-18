@@ -1,0 +1,51 @@
+/* src/App.css */
+.comments-section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-comment, .reply-comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.add-comment input,
+.add-comment textarea,
+.reply-comment input,
+.reply-comment textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-list, .replies-list {
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color:lightblue;
+}
+
+.comment {
+  padding: 10px;
+  border: 1px solid ;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color:lightblue;
+}
+
+.comment-actions button {
+  margin-right: 10px;
+  background-color: rgba(26, 2, 244, 0.475);
+  color: white;
+}
+
+.replies-list {
+  margin-left: 20px;
+  border-left: 2px solid ;
+  padding-left: 10px;
+}
